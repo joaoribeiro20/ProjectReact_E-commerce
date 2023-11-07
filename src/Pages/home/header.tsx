@@ -1,18 +1,17 @@
 import { FC } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import "./styleHome.scss"
 
 const header: FC = () =>{
     return(
         <>
-        <section>
-            <article><img src="" alt="" /></article>
-            <article>
-                <div>
-                    <h3>Login</h3>
-                    <h3>Loja</h3>
+        <section className="HeaderAreaMain">
+            <article className="logoHeaderArea"><img src="" alt="logoDaLoja" /></article>
+            <article className="menuHeaderArea">
+                <div className="linksHeaderArea">
+                    <h3 className="linksHeader">Login</h3>
+                    <h3 className="linksHeader">Loja</h3>
                 </div>
-                <button><FontAwesomeIcon icon={faAlgolia} /></button>
+                <button>a</button>
             </article>
         </section>
         </>

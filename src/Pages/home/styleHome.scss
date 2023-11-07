@@ -1,0 +1,43 @@
+@import '../../styles/variables.scss';
+
+/* ------- header ------ */
+.HeaderAreaMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoHeaderArea {}
+.menuHeaderArea {
+    display: flex;
+    flex-direction: row;
+    
+}
+.linksHeaderArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.linksHeader{
+    margin: 2vh;
+}
+/* ------- home ------ */
+.homeAreaMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.homeTituloMain{
+    font-size: 10vh;
+}
+.homeAreaTituloTextos{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.homeAreaImg{
+}
+.homeImgMain{
+    min-width: 25%;
+}
