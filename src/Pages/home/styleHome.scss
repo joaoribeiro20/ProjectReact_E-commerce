@@ -2,42 +2,136 @@
 
 /* ------- header ------ */
 .HeaderAreaMain {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    @include position(space-between, row, center);
+    background-color: $headerFooterColor;
+    color: rgb(255, 255, 255);
 }
-.logoHeaderArea {}
+
+.btnHeaderIconeMenu {
+    background-color: $headerFooterColor;
+    border: 0vh;
+    margin-right: 3vh;
+
+    :hover {
+        background-color: aliceblue;
+        transition-duration: 700ms;
+        border-radius: 5px;
+    }
+}
+
+.logoHeaderArea {
+    margin-left: 5vh;
+}
+
 .menuHeaderArea {
     display: flex;
     flex-direction: row;
-    
 }
+
 .linksHeaderArea {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.linksHeader{
+
+.linksHeader {
     margin: 2vh;
 }
+
 /* ------- home ------ */
-.homeAreaMain{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+.homeAreaMain {
+    @include position(space-between, row, start);
+    background-color: $homeMainColor;
 }
-.homeTituloMain{
+
+.homeTituloMain {
     font-size: 10vh;
 }
-.homeAreaTituloTextos{
-    display: flex;
-    flex-direction: column;
-    margin: 2%;
+
+.homeAreaTituloTextos {
+    @include position(space-between, column, start);
+    margin: 5%;
+    max-width: 75vh;
 }
-.homeAreaImg{
+
+.homeAreaImg {margin-top: 0vh;}
+
+.homeImgMain {
+    width: 65vh;
+    height: 65vh;
+    margin: 15vh;
+    margin-right: 10vh;
 }
-.homeImgMain{
-    min-width: 25%;
+
+.homeAreaTituloBtn {
+    background-color: $genericColor;
+    border: 0px;
+    padding: 2vh;
+    border-radius: 5vh;
+    width: 50vh;
+    box-shadow: 9px 12px 2px 0px $headerFooterColor;
+    -webkit-box-shadow: 9px 12px 2px 0px $headerFooterColor;
+    -moz-box-shadow: 9px 12px 2px 0px $headerFooterColor;
+
+    margin-top: 8vh;
+}
+
+.homeAreaTituloBtn:hover {
+    background-color: $headerFooterColor;
+    color: rgb(255, 255, 255);
+    box-shadow: 9px 12px 2px 0px $genericColor;
+    -webkit-box-shadow: 9px 12px 2px 0px $genericColor;
+    -moz-box-shadow: 9px 12px 2px 0px $genericColor;
+    
+}
+
+@media (max-width: 600px) {}
+
+/* ------- content ------ */
+.areaMainConteudo {
+    @include position(space-between, column, center);
+    background-color: $genericColor;
+    color: $headerFooterColor;
+    padding: 5vh
+}
+
+.areaConteudoText {
+    @include position(space-around, row, center);
+    margin: 5vh;
+    text-align: center;
+}
+
+.one {
+    padding: 5vh;
+}
+
+.two {
+    padding: 5vh;
+}
+
+.imgareaConteudo2 {
+    box-shadow: 17px 21px 5px 0px rgba(83, 67, 53, 0.75);
+    -webkit-box-shadow: 17px 21px 5px 0px rgba(83, 67, 53, 0.75);
+    -moz-box-shadow: 17px 21px 5px 0px rgba(83, 67, 53, 0.75);
+}
+
+.imgareaConteudo1 {
+    box-shadow: -27px 21px 5px 0px rgba(83, 67, 53, 0.75);
+    -webkit-box-shadow: -27px 21px 5px 0px rgba(83, 67, 53, 0.75);
+    -moz-box-shadow: -27px 21px 5px 0px rgba(83, 67, 53, 0.75);
+}
+
+/* ------- content ------ */
+.areaFooterMain {
+    @include position(space-around, row, center);
+    background-color: $headerFooterColor;
+    color: rgb(255, 255, 255);
+}
+
+.areaFooterSobre {
+    padding: 10vh;
+}
+
+.areaFooterParceiros {
+    padding: 10vh;
 }
