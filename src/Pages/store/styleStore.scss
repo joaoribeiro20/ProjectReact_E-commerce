@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+
+.campoFilterAreaMain{
+    @include position(space-between, column, start);
+    padding: 5vh;
+}
+
+.filterAreaMain{
+    @include position(space-around, row, space-between);
+    
+}
+.filterProdutoCaracteristicas{
+    @include position(space-between, row, center);
+   
+}
+.filterIntem{
+    margin: 5vh;
+   
+}
+.filterProdutoProdutoGeral{
+   
+    margin-left: 35vh;
+}

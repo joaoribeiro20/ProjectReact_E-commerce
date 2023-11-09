@@ -1,6 +1,7 @@
 import { FC } from "react"
 import "./styleLogin.scss"
 import { Link } from "react-router-dom"
+import { BsFillHousesFill, BsFillPersonPlusFill } from "react-icons/bs"
 
 const PageMainLogin: FC = () => {
     return (
@@ -25,9 +26,11 @@ const PageMainLogin: FC = () => {
                                 <label htmlFor="">Passaword</label><br />
                                 <input className="inputFormsLogin" type="text" name="" id="" />
                             </div>
-                            <Link className="LinkHomePageLogin" to="/">Home</Link><br />
-                            <button className="btnTelaLogin">Entrar</button> 
-                        </form>
+                          
+                            <Link className="LinkHomePageLogin" to="/"><BsFillHousesFill size={25} /></Link>
+                            <Link className="BsFillPersonPlusFill" to="/"><BsFillPersonPlusFill size={25} /></Link>
+                          
+                        </form>  <button className="btnTelaLogin">Entrar</button>   
                     </div>
                 </div>
             </section>

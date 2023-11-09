@@ -1,6 +1,6 @@
 import { FC } from "react";
 import "./styleHome.scss"
-import SimpleSlider from "./Carrocel";
+import SimpleSlider from "./Carrossel ";
 
 const content: FC = () => {
     return (
@@ -8,10 +8,12 @@ const content: FC = () => {
         <SimpleSlider />
             <section className="areaMainConteudo">
                 <div className="areaConteudoText ">
-                    <div className="imgareaConteudo one"><img  src="../../../public/imgCafeEspecial.jpg" alt="img" /></div>
+                    <div className="imgareaConteudo one">
+                        <img  src="../../../public/imgCafeEspecial.jpg" alt="img" />
+                    </div>
                     <div className="one">
                     <h2>Sabia que existe uma grande diferença entre cafes?</h2><br />
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia facere perferendis nam iure accusantium! Id blanditiis, amet labore soluta laudantium reiciendis alias omnis temporibus dolor quidem odio. Eaque, non possimus?</p>
+                    <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia facere perferendis nam iure accusantium! Id blanditiis, amet labore soluta laudantium reiciendis alias omnis temporibus dolor quidem odio. Eaque, non possimus?</p>
                     </div>
                 </div>
                 <div className="areaConteudoText ">

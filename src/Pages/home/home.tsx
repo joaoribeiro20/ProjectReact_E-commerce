@@ -18,7 +18,11 @@ const home: FC = () =>{
                      vel enim eligendi ipsum 
                     sit non autem ab quisquam a, molestiae libero 
                     neque.</p><br />
-                    <Link className="homeAreaTituloBtn" to="/Loja"> Loja</Link>
+                   
+                     <div className="homeAreaBtnTextos">
+                        <Link className="homeAreaTituloBtn" to="/Loja"> Loja</Link>
+                    <Link className="homeAreaTituloBtnCadaste" to="/Loja"> Cadasta-se </Link>
+                    </div>
             </div>
             <div className="homeAreaImg">
                  <img className="homeImgMain" src="../../../public/xicaraDeCafeMain.png" alt="IMG" height={450} width={550}/>
