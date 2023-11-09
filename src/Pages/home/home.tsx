@@ -21,7 +21,7 @@ const home: FC = () =>{
                     <Link className="homeAreaTituloBtn" to="/Loja"> Loja</Link>
             </div>
             <div className="homeAreaImg">
-                 <img className="homeImgMain" src="../../../public/pngegg (4).png" alt="IMG" height={450} width={550}/>
+                 <img className="homeImgMain" src="../../../public/xicaraDeCafeMain.png" alt="IMG" height={450} width={550}/>
             </div>
         </section>
       <Content/>

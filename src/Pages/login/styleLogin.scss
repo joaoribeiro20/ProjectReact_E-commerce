@@ -1,0 +1,61 @@
+@import '../../styles/variables.scss';
+
+
+.areaLoginMain{
+    @include position(space-between, row, center);
+    height: 100vh;
+}
+
+.areaLoginMainImg{
+    background-color: $headerFooterColor;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.imgLogin{
+    width: 100vh;
+    margin: 5vh;
+}
+.areaLoginMainforms{
+    background-color: $genericColor;
+    height: 100vh;
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column; 
+    width: 100vh;
+}
+.formsLogin{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+margin-top: 5vh;
+    border: 2px solid $headerFooterColor;
+    padding: 5vh;
+    font-size: 25px;
+    height: 50vh;
+    width: 35vh;
+    align-items: center;
+    margin-top: 10vh;
+}
+.inputFormsLogin{
+    background-color: $genericColor;
+    border-radius: 25px;
+    border: 2px $headerFooterColor solid;
+    
+}
+.LinkHomePageLogin{
+    text-decoration: none;
+    
+}
+.btnTelaLogin{
+    margin-top: 3vh;
+    background-color: $genericColor;
+    border: 4px solid $headerFooterColor;
+    border-radius: 15px;
+    width: 20vh;
+    font-size: 3vh;
+}

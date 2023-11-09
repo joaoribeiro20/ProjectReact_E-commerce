@@ -11,6 +11,7 @@
     background-color: $headerFooterColor;
     border: 0vh;
     margin-right: 3vh;
+    color: $genericColor;
 
     :hover {
         background-color: aliceblue;
@@ -21,6 +22,8 @@
 
 .logoHeaderArea {
     margin-left: 5vh;
+    display: flex;
+    align-items: center;
 }
 
 .menuHeaderArea {
@@ -36,6 +39,7 @@
 
 .linksHeader {
     margin: 2vh;
+    color: $genericColor;
 }
 
 /* ------- home ------ */
@@ -52,39 +56,45 @@
     @include position(space-between, column, start);
     margin: 5%;
     max-width: 75vh;
+    margin-top: 18vh;
 }
 
-.homeAreaImg {margin-top: 0vh;}
+.homeAreaImg {margin-top: 30vh; }
 
 .homeImgMain {
-    width: 65vh;
-    height: 65vh;
-    margin: 15vh;
-    margin-right: 10vh;
+    width: 55vh;
+    height: 55vh;
+    /* margin: 15vh;*/
+    margin-right: 20vh; 
+
 }
+
 
 .homeAreaTituloBtn {
     background-color: $genericColor;
     border: 0px;
     padding: 2vh;
     border-radius: 5vh;
-    width: 50vh;
-    box-shadow: 9px 12px 2px 0px $headerFooterColor;
-    -webkit-box-shadow: 9px 12px 2px 0px $headerFooterColor;
-    -moz-box-shadow: 9px 12px 2px 0px $headerFooterColor;
-
+    width: 30vh;
+  
     margin-top: 8vh;
 }
 
 .homeAreaTituloBtn:hover {
     background-color: $headerFooterColor;
     color: rgb(255, 255, 255);
-    box-shadow: 9px 12px 2px 0px $genericColor;
-    -webkit-box-shadow: 9px 12px 2px 0px $genericColor;
-    -moz-box-shadow: 9px 12px 2px 0px $genericColor;
+    
     
 }
-
+@media (max-width: 1300px) {
+    .homeImgMain {
+        width: 55vh;
+        height: 55vh;
+        /* margin: 15vh;*/
+        margin-right: 55vh; 
+    
+    }
+}
 @media (max-width: 600px) {}
 
 /* ------- content ------ */
@@ -134,4 +144,56 @@
 
 .areaFooterParceiros {
     padding: 10vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+.areaMainConteudoVendedor{
+    background-color: $genericColor;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.btnContent{
+    background-color: $headerFooterColor;
+    border: 0cap;
+    color: $genericColor;
+    padding: 3vh;
+    margin: 5vh;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.imgContent{
+    width: 250px;
+}
+.testew{
+   color: black;
+    margin: 5vh;
+    background-color: $genericColor;
+    height: 50vh;
+    margin-top: 15vh;
+   border-radius: 15px;
+   align-items: center;
+   padding: 3vh;
+   display: flex;
+   flex-direction: column;
+}
+.teste{
+    background-color: $homeMainColor;
+    text-align: center;
+  
+}
+.aa{
+    margin-top: 20vh;
 }
