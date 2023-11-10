@@ -23,39 +23,66 @@
     background-color: $genericColor;
     height: 100vh;
     display: flex;
-   
+   justify-content: center;
     align-items: center;
     flex-direction: column; 
     width: 100vh;
+    
+}
+.areaTeste{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  
+}
+
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.testeL{
+ display: flex;
+ margin-right: 10vh;
 }
 .formsLogin{
+
+    
     display: flex;
-    justify-content: center;
+   width: 100%;
     flex-direction: column;
-margin-top: 5vh;
+    align-items: center;
+/* margin-top: 5vh;
     border: 2px solid $headerFooterColor;
     padding: 5vh;
     font-size: 25px;
    /*  height: 50vh;
     width: 35vh; */
-    align-items: center;
-    margin-top: 10vh;
+    /*align-items: center;
+    margin-top: 10vh; */
 }
 .inputFormsLogin{
     background-color: $genericColor;
     border-radius: 25px;
     border: 2px $headerFooterColor solid;
-    
+    width: 100%;
 }
+
 .LinkHomePageLogin{
     text-decoration: none;
+    color: $homeMainColor;
     
-}
+}.testeA:hover{
+        font-size: 20px;
+        transition-duration: 300ms;
+    }
 .btnTelaLogin{
     margin-top: 3vh;
-    background-color: $genericColor;
-    border: 4px solid $headerFooterColor;
+    background-color: $headerFooterColor;
+    border: 0px solid ;
     border-radius: 15px;
-    width: 20vh;
+    width: 100%;
     font-size: 3vh;
+    color: $genericColor;
 }

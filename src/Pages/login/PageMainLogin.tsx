@@ -15,22 +15,38 @@ const PageMainLogin: FC = () => {
                 </div>
                 <div className="areaLoginMainforms">
                     <div className="formsLogin">
-                        <h2>Login</h2><br />
+                        <div className="titulo">
+                           <h2>Login</h2><br /> 
+                        </div>
+                        
 
                         <form >
-                            <div>
-                                <label htmlFor="">Email</label><br />
+                            <div className="teste">
+                                <label htmlFor="">Email</label>     
                                 <input className="inputFormsLogin" type="text" name="" id="" />
                             </div>
-                            <div>
-                                <label htmlFor="">Passaword</label><br />
+                            <div className="teste">
+                                <label htmlFor="">Passaword</label> 
                                 <input className="inputFormsLogin" type="text" name="" id="" />
                             </div>
-                          
-                            <Link className="LinkHomePageLogin" to="/"><BsFillHousesFill size={25} /></Link>
+
+                            <div className="areaTeste">
+                                <div className="testeL">
+                                    <input className="legal" type="checkbox" />
+                                    <p>concordo os termos de seguraça</p> 
+                                </div>
+                           <div>
+                            <a href="" className="testeA">Esqueceu a senha</a>
+                           </div>
+                            
+                          </div>
+                          <button className="btnTelaLogin">Entrar</button>
+                          </form>   
+                             Nao tem uma conta?<Link className="LinkHomePageLogin testeA" to="/">Inscreva-se</Link>
+                            {/* <Link className="LinkHomePageLogin" to="/"><BsFillHousesFill size={25} /></Link>
                             <Link className="BsFillPersonPlusFill" to="/"><BsFillPersonPlusFill size={25} /></Link>
-                          
-                        </form>  <button className="btnTelaLogin">Entrar</button>   
+                           */}
+                        
                     </div>
                 </div>
             </section>

@@ -1,23 +1,19 @@
 @import '../../styles/variables.scss';
 
-.campoFilterAreaMain{
-    @include position(space-between, column, start);
-    padding: 5vh;
+.storeAreaMainProduto{
+   margin: 1%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
 }
-
-.filterAreaMain{
-    @include position(space-around, row, space-between);
-    
+.storeProduto{
+    background-color:  $genericColor;
+    min-width: 15%;
+    max-width: 20%;
+    padding: 1%;
+    margin: 2vh;
 }
-.filterProdutoCaracteristicas{
-    @include position(space-between, row, center);
-   
-}
-.filterIntem{
-    margin: 5vh;
-   
-}
-.filterProdutoProdutoGeral{
-   
-    margin-left: 35vh;
+.storeProdutoImg{
+    width: 35vh;
 }

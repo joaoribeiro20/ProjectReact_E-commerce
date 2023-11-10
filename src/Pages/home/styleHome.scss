@@ -5,6 +5,9 @@
     @include position(space-between, row, center);
     background-color: $headerFooterColor;
     color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
 }
 
 .btnHeaderIconeMenu {
@@ -51,7 +54,8 @@
     color: $genericColor;
 
     :hover{
-        color: rgb(0, 87, 36)
+        color: rgb(0, 87, 36);
+        transition-duration: 700ms;
     }
 }
 
@@ -59,6 +63,12 @@
 .homeAreaMain {
     @include position(space-between, row, start);
     background-color: $homeMainColor;
+    /* background-image: url('../../../public/testeBackGrudHome.jpg');
+    background-position: center;
+    background-size: cover; */
+   /*  height: 100vh;
+    color: rgb(0, 0, 0);
+    overflow-y: hidden; */
 }
 
 .homeTituloMain {
@@ -67,11 +77,9 @@
 
 .homeAreaTituloTextos {
     @include position(space-between, column, start);
-    margin: 5%;
-    min-width: 35%;
-    max-width: 50%;
-    margin-top: 18vh;
-    height: 80%;
+margin: 5vh;
+   margin-top: 15%;
+    
 }
 
 .homeAreaImg {
@@ -94,30 +102,30 @@
     border: 0px;
     padding: 2vh;
     border-radius: 5vh;
-    width: 30vh;
-
-    margin-top: 8vh;
+    width: 15vh;
+    margin: 5vh;
 }
 .homeAreaTituloBtnCadaste{
     background-color: $genericColor;
     border: 0px;
     padding: 2vh;
     border-radius: 5vh;
-    width: 15vh;
-    margin-left: 3vh;
-    margin-top: 8vh;
+    width: 35vh;
+   
 }
-.homeAreaBtnTextos{
-    height: 50%;
+
+.homeAreaBtnTextos {
+    height: 100%;
     width: 50%;
+    @include position(space-between, row, center);
+    
+    :hover{
+        background-color: rgb(0, 87, 36);
+        transition-duration: 700ms;
+    }
 }
 
-.homeAreaTituloBtn:hover {
-    background-color: $headerFooterColor;
-    color: rgb(255, 255, 255);
 
-
-}
 
 @media (max-width: 1300px) {
     .homeImgMain {

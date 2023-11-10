@@ -26,7 +26,7 @@ export default class SimpleSlider extends Component {
               <div className="divItemCarrossel">
                 <div className="itemCarrossel">
                     <h2>Cafe Sul de minas</h2><br />
-                    <img  src="../../../public/imgCafeEspecial.jpg" alt="img" /><br />
+                    <img  src="../../../public/paper-bag-6905690_1280.jpg" alt="img" /><br />
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, nemo culpa ad odit, vero fuga minus deleniti dolor repudiandae, corrupti accusantium! Nostrum aut perferendis hic minima molestias sunt voluptatum voluptatem.</p>
                     <br />
                     <ul>
@@ -41,7 +41,7 @@ export default class SimpleSlider extends Component {
               <div className="divItemCarrossel">
                 <div className="itemCarrossel">
                     <h2>Cafe Sul de minas</h2><br />
-                    <img  src="../../../public/imgCafeEspecial.jpg" alt="img" /><br />
+                    <img  src="../../../public/paper-bag-6905690_1280.jpg" alt="img" /><br />
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, nemo culpa ad odit, vero fuga minus deleniti dolor repudiandae, corrupti accusantium! Nostrum aut perferendis hic minima molestias sunt voluptatum voluptatem.</p>
                     <br />
                     <ul>
@@ -57,7 +57,7 @@ export default class SimpleSlider extends Component {
               <div className="divItemCarrossel">
                 <div className="itemCarrossel">
                     <h2>Cafe Sul de minas</h2><br />
-                    <img  src="../../../public/imgCafeEspecial.jpg" alt="img" /><br />
+                    <img  src="../../../public/paper-bag-6905690_1280.jpg" alt="img" /><br />
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, nemo culpa ad odit, vero fuga minus deleniti dolor repudiandae, corrupti accusantium! Nostrum aut perferendis hic minima molestias sunt voluptatum voluptatem.</p>
                     <br />
                     <ul>
@@ -71,8 +71,8 @@ export default class SimpleSlider extends Component {
               {/* ---------------------------------------- */}
               <div className="divItemCarrossel">
                 <div className="itemCarrossel">
-                    <h2>Cafe Sul de minas</h2><br />
-                    <img  src="../../../public/imgCafeEspecial.jpg" alt="img" /><br />
+                    <h2>Cafe Sul de minas2222</h2><br />
+                    <img  src="../../../public/paper-bag-6905690_1280.jpg" alt="img" /><br />
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, nemo culpa ad odit, vero fuga minus deleniti dolor repudiandae, corrupti accusantium! Nostrum aut perferendis hic minima molestias sunt voluptatum voluptatem.</p>
                     <br />
                     <ul>
@@ -87,7 +87,7 @@ export default class SimpleSlider extends Component {
               <div className="divItemCarrossel">
                 <div className="itemCarrossel">
                     <h2>Cafe Sul de minas</h2><br />
-                    <img  src="../../../public/imgCafeEspecial.jpg" alt="img" /><br />
+                    <img  src="../../../public/embalaegemCafeProduto.avif" alt="img" /><br />
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, nemo culpa ad odit, vero fuga minus deleniti dolor repudiandae, corrupti accusantium! Nostrum aut perferendis hic minima molestias sunt voluptatum voluptatem.</p>
                     <br />
                     <ul>
@@ -102,7 +102,7 @@ export default class SimpleSlider extends Component {
               <div className="divItemCarrossel">
                 <div className="itemCarrossel">
                     <h2>Cafe Sul de minas</h2><br />
-                    <img  src="../../../public/imgCafeEspecial.jpg" alt="img" /><br />
+                    <img  src="../../../public/paper-bag-6905690_1280.jpg" alt="img" /><br />
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, nemo culpa ad odit, vero fuga minus deleniti dolor repudiandae, corrupti accusantium! Nostrum aut perferendis hic minima molestias sunt voluptatum voluptatem.</p>
                     <br />
                     <ul>

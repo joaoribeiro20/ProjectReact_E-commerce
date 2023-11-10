@@ -1,69 +1,120 @@
 import { FC } from "react"
 import Header from "../home/Header"
-import { Link } from "react-router-dom"
+
 import "./styleStore.scss"
+import CampoFilter from "./CampoFilter"
+import Footer from "../home/Footer"
+import { BsCartPlus,BsCupHot } from "react-icons/bs"
+/* 
+
+BsCardText
+BsCartPlus
+BsCartCheckFill
+BsCupHotFill
+BsCupHot
+
+*/
 const StoreAreaMain: FC = () => {
     return (
         <>
-            <section>
+            <div>
                 <Header />
-                <div className="campoFilterAreaMain">
+                <CampoFilter />
+
+                <div className="storeAreaMainProduto">
+                    <div className="storeProduto">
+                    <p>Cafe leagal</p><br />
+                    <img  className="storeProdutoImg" src="../../../public/embalaegemCafeProduto.avif" alt="img" /><br />
+                    
+                    <p>R$ 26,59</p>
                     <div>
-                        <Link to="/">Home</Link>
+                        <button><BsCartPlus size={25} /></button>
+                        <button><BsCupHot size={25} />Detalhes</button>
                     </div>
-
+                    </div>
                     {/* --------------------------- */}
-                    <div className="filterAreaMain">
-                        <div className="filterProdutoCaracteristicas">
-                            <div className="filterIntem">
-                                <label htmlFor="torra">Torra</label>
-                                <br />
-                                <select name="torra" id="torra">
-                                    <option value="clara">Clara</option>
-                                    <option value="media">Media</option>
-                                    <option value="escura">Escura</option>
-                                </select>
-                            </div>
-
-                            <div className="filterIntem">
-                                <label htmlFor="moagem">Moagem</label>
-                                <br />
-                                <select name="" id="">
-                                    <option value="grossa">Grossa</option>
-                                    <option value="media">Media</option>
-                                    <option value="fina">Fina</option>
-                                    <option value="grao">grao</option>
-                                </select>
-                            </div>
-
-                            <div className="filterIntem">
-                                <label htmlFor="moagem">Moagem</label>
-                                <br />
-                                <select name="" id="">
-                                    <option value="grossa">Grossa</option>
-                                    <option value="media">Media</option>
-                                    <option value="fina">Fina</option>
-                                    <option value="grao">grao</option>
-                                </select>
-                            </div>
-
-                            <button>Filtrar</button>
-                            <button>Limpar Filtro</button>
-                        </div>
-                        <div className="filterProdutoProdutoGeral"> 
-                                <label htmlFor="moagem">Classificação por: </label>
-                                <br />
-                                <select name="" id="">
-                                    <option value="grossa">Em Destaque</option>
-                                    <option value="media">Peço: Do menor para maior</option>
-                                    <option value="fina">Peço: Do maior para o menor</option>
-                                    <option value="grao">Melhores avaliados</option>
-                                    <option value="grao">Lançamentos e Mais novos</option>
-                                </select>
+                    <div className="storeProduto">
+                    <p>Cafe leagal</p><br />
+                    <img  className="storeProdutoImg" src="../../../public/embalaegemCafeProduto.avif" alt="img" /><br />
+                    
+                    <p>R$ 26,59</p>
+                    <div>
+                        <button><BsCartPlus size={25} /></button>
+                        <button><BsCupHot size={25} />Detalhes</button>
                     </div>
+                    </div>
+                    {/* --------------------------- */}
+                    <div className="storeProduto">
+                    <p>Cafe leagal</p><br />
+                    <img  className="storeProdutoImg" src="../../../public/embalaegemCafeProduto.avif" alt="img" /><br />
+                    
+                    <p>R$ 26,59</p>
+                    <div>
+                        <button><BsCartPlus size={25} /></button>
+                        <button><BsCupHot size={25} />Detalhes</button>
+                    </div>
+                    </div>
+                    {/* --------------------------- */}
+                    <div className="storeProduto">
+                    <p>Cafe leagal</p><br />
+                    <img  className="storeProdutoImg" src="../../../public/embalaegemCafeProduto.avif" alt="img" /><br />
+                    
+                    <p>R$ 26,59</p>
+                    <div>
+                        <button><BsCartPlus size={25} /></button>
+                        <button><BsCupHot size={25} />Detalhes</button>
+                    </div>
+                    </div>
+                    {/* --------------------------- */}
+                    <div className="storeProduto">
+                    <p>Cafe leagal</p><br />
+                    <img  className="storeProdutoImg" src="../../../public/embalaegemCafeProduto.avif" alt="img" /><br />
+                    
+                    <p>R$ 26,59</p>
+                    <div>
+                        <button><BsCartPlus size={25} /></button>
+                        <button><BsCupHot size={25} />Detalhes</button>
+                    </div>
+                    </div>
+                    {/* --------------------------- */}
+                    <div className="storeProduto">
+                    <p>Cafe leagal</p><br />
+                    <img  className="storeProdutoImg" src="../../../public/embalaegemCafeProduto.avif" alt="img" /><br />
+                    
+                    <p>R$ 26,59</p>
+                    <div>
+                        <button><BsCartPlus size={25} /></button>
+                        <button><BsCupHot size={25} />Detalhes</button>
+                    </div>
+                    </div>
+                    {/* --------------------------- */}
+                    <div className="storeProduto">
+                    <p>Cafe leagal</p><br />
+                    <img  className="storeProdutoImg" src="../../../public/embalaegemCafeProduto.avif" alt="img" /><br />
+                    
+                    <p>R$ 26,59</p>
+                    <div>
+                        <button><BsCartPlus size={25} /></button>
+                        <button><BsCupHot size={25} />Detalhes</button>
+                    </div>
+                    </div>
+                    {/* --------------------------- */}
+                    <div className="storeProduto">
+                    <p>Cafe leagal</p><br />
+                    <img  className="storeProdutoImg" src="../../../public/embalaegemCafeProduto.avif" alt="img" /><br />
+                    
+                    <p>R$ 26,59</p>
+                    <div>
+                        <button><BsCartPlus size={25} /></button>
+                        <button><BsCupHot size={25} />Detalhes</button>
+                    </div>
+                    </div>
+                    {/* --------------------------- */}
+                    
+                  
                 </div>
-                </div>
-            </section>
+            </div>
+            <Footer />
         </>
     )
 }

@@ -18,10 +18,9 @@ const home: FC = () =>{
                      vel enim eligendi ipsum 
                     sit non autem ab quisquam a, molestiae libero 
                     neque.</p><br />
-                   
-                     <div className="homeAreaBtnTextos">
-                        <Link className="homeAreaTituloBtn" to="/Loja"> Loja</Link>
+                    <div className="homeAreaBtnTextos"> 
                     <Link className="homeAreaTituloBtnCadaste" to="/Loja"> Cadasta-se </Link>
+                    <Link className="homeAreaTituloBtn" to="/Loja"> Loja</Link><br />
                     </div>
             </div>
             <div className="homeAreaImg">
